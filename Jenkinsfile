@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent slave-2
     stages {
         // stage('Delete Docker Containers and Images') {
         //     steps {
