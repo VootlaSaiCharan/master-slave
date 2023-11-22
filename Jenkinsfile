@@ -1,5 +1,6 @@
 pipeline {
-    agent slave-2
+    //agent any
+    agent { label 'slave-2' }
     stages {
         // stage('Delete Docker Containers and Images') {
         //     steps {
