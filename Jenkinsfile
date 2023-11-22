@@ -1,6 +1,7 @@
-pipeline {
+node 'slave-2'{
+//pipeline {
     //agent any
-    agent { label 'slave-2' }
+   // agent { label 'slave-2' }
     stages {
         // stage('Delete Docker Containers and Images') {
         //     steps {
