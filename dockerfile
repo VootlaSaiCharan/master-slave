@@ -1,9 +1,9 @@
-FROM ubuntu:latest
+FROM amazonlinux:latest
 LABEL project="final-project"
 LABEL author="charan"
 
-RUN apt update
-RUN apt install apache2 -y
+RUN yum update
+RUN yum install apache2 -y
 
 ENV debian_frontend=non-interactive
 
